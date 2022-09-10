@@ -64,7 +64,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 David Slavik - <a href = "https://github.com/slavikdavid">GitHub</a> - dslavik20@foi.hr
 
-Project Link: [https://github.com/slavikdavid/acvz](https://github.com/slavikdavid/snake)
+Project Link: [https://github.com/slavikdavid/snake](https://github.com/slavikdavid/snake)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
