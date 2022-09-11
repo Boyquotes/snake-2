@@ -24,7 +24,6 @@
     </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -62,11 +61,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 David Slavik - <a href = "https://github.com/slavikdavid">GitHub</a> - dslavik20@foi.hr
 
 Project Link: [https://github.com/slavikdavid/snake](https://github.com/slavikdavid/snake)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
