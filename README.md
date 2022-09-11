@@ -67,8 +67,8 @@ Project Link: [https://github.com/slavikdavid/snake](https://github.com/slavikda
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[license-shield]: https://img.shields.io/github/license/slavikdavid/acvz.svg?style=for-the-badge
-[license-url]: https://img.shields.io/github/license/slavikdavid/acvz.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/slavikdavid/snake.svg?style=for-the-badge
+[license-url]: https://img.shields.io/github/license/slavikdavid/snake.svg?style=for-the-badge
 
 [slavik-shield]: https://img.shields.io/badge/david%20slavik-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [slavik-url]: https://linkedin.com/in/slavikdavid
