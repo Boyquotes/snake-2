@@ -40,7 +40,6 @@ A simple Snake game made in Godot v3.5.
 * infinite borders (player may leave the 20x20 window and the snake will come through the other side of the screen)
 
 ### Built With
-
 [![Godot][Godot]][Godot-url]
 
 Project has been realized in Godot game engine v3.5
@@ -52,7 +51,6 @@ Programming language used: GDScript
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
