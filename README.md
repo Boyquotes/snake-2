@@ -43,6 +43,7 @@ A simple Snake game made in Godot v3.5.
 [![Godot][Godot]][Godot-url]
 
 Project has been realized in Godot game engine v3.5
+
 Programming language used: GDScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
