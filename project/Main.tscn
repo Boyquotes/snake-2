@@ -90,15 +90,16 @@ position = Vector2( 400, 400 )
 script = ExtResource( 6 )
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-color = Color( 0.290196, 0.298039, 0.321569, 1 )
+color = Color( 0.596078, 0.654902, 0.756863, 1 )
 
 [node name="Light2D" type="Light2D" parent="."]
 position = Vector2( -477, -98 )
 texture = ExtResource( 3 )
 texture_scale = 28.14
-energy = 0.97
+energy = 0.7
 shadow_enabled = true
-shadow_gradient_length = 3.0
-shadow_filter_smooth = 45.0
+shadow_gradient_length = 2.0
+shadow_filter = 1
+shadow_filter_smooth = 0.9
 
 [connection signal="timeout" from="Tick" to="." method="_on_Tick_timeout"]
