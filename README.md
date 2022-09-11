@@ -37,6 +37,7 @@ A simple Snake game made in Godot v3.5.
 * Snake-type game mechanics
 * keeping track of the score and highscore
 * infinite borders (player may leave the 20x20 window and the snake will come through the other side of the screen)
+* visual update: lighting and shadows! 
 
 ### Built With
 [![Godot][Godot]][Godot-url]
