@@ -1,10 +1,20 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
 [ext_resource path="res://simple-snake.png" type="Texture" id=2]
+[ext_resource path="res://light.jpg" type="Texture" id=3]
 [ext_resource path="res://tile.png" type="Texture" id=4]
 [ext_resource path="res://Score.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Score.gd" type="Script" id=6]
+
+[sub_resource type="OccluderPolygon2D" id=2]
+polygon = PoolVector2Array( 40, 40, 0, 40, 0, 2, 40, 2 )
+
+[sub_resource type="OccluderPolygon2D" id=3]
+polygon = PoolVector2Array( 0, 40, 40, 40, 40, 0, 0, 0 )
+
+[sub_resource type="OccluderPolygon2D" id=4]
+polygon = PoolVector2Array( 28, 28, 12, 28, 12, 12, 28, 12 )
 
 [sub_resource type="TileSet" id=1]
 0/name = "simple-snake.png 0"
@@ -16,7 +26,7 @@
 0/autotile/icon_coordinate = Vector2( 0, 0 )
 0/autotile/tile_size = Vector2( 40, 40 )
 0/autotile/spacing = 0
-0/autotile/occluder_map = [  ]
+0/autotile/occluder_map = [ Vector2( 0, 0 ), SubResource( 2 ), Vector2( 1, 0 ), SubResource( 3 ), Vector2( 1, 1 ), SubResource( 4 ) ]
 0/autotile/navpoly_map = [  ]
 0/autotile/priority_map = [  ]
 0/autotile/z_index_map = [  ]
@@ -78,5 +88,17 @@ autostart = true
 modulate = Color( 1, 1, 1, 0.180392 )
 position = Vector2( 400, 400 )
 script = ExtResource( 6 )
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color( 0.290196, 0.298039, 0.321569, 1 )
+
+[node name="Light2D" type="Light2D" parent="."]
+position = Vector2( -477, -98 )
+texture = ExtResource( 3 )
+texture_scale = 28.14
+energy = 0.97
+shadow_enabled = true
+shadow_gradient_length = 3.0
+shadow_filter_smooth = 45.0
 
 [connection signal="timeout" from="Tick" to="." method="_on_Tick_timeout"]

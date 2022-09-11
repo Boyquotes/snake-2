@@ -21,7 +21,9 @@ window/size/height=800
 window/size/resizable=false
 window/size/test_width=800
 window/size/test_height=800
+window/tablet_driver=false
 mouse_cursor/tooltip_position_offset=Vector2( 0, 0 )
+window/stretch/aspect="keep"
 
 [gui]
 
