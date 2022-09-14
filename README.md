@@ -18,6 +18,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#features">Features</a></li>
+        <li><a href="#usage-instructions">Usage instrucitons</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -39,7 +40,15 @@ A simple Snake game made in Godot v3.5.
 * infinite borders (player may leave the 20x20 window and the snake will come through the other side of the screen)
 * visual update: lighting and shadows! 
 
-### Built With
+## Usage instructions
+
+There are currently two releases available: <a href = "https://github.com/slavikdavid/snake/releases/tag/windows">Windows</a> & <a href = "https://github.com/slavikdavid/snake/releases/tag/linux">Linux</a>.
+
+To play the game, just head to <a href = "https://github.com/slavikdavid/snake/releases">Releases</a> and download the game.
+
+Note: make sure to put executable file `.exe` on Windows or `x86_64`  on Linux and `.pck` file in the same folder. This is necessary to run the game.
+
+## Built With
 [![Godot][Godot]][Godot-url]
 
 Project has been realized in Godot game engine v3.5
